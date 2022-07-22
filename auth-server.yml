@@ -7,9 +7,12 @@ spring.application.name: auth-server
 spring.jpa.hibernate.ddl-auto: update
 
 spring.datasource:
+  driver-class-name: com.mysql.jdbc.Driver
   url: jdbc:mysql://localhost:3306/user-db
   username: user
   password: pwd
+
+
 #  driver-class-name: com.mysql.cj.jdbc.Driver
 
 spring.datasource.hikari.initializationFailTimeout: 60000
